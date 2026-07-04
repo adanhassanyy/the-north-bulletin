@@ -1,8 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+import React from 'react'
 
-html, body {
-  margin: 0;
-  padding: 0;
+export default function AppPlaceholder(){
+  return null
 }
