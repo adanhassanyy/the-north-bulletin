@@ -1,13 +1,21 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The North Bulletin — The Voice of Northern Kenya</title>
-    <meta name="description" content="The North Bulletin — independent news and analysis from Marsabit, Mandera, Wajir, Isiolo, Turkana, Samburu and Garissa." />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+{
+  "name": "the-north-bulletin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The North Bulletin — independent news and analysis from Marsabit, Mandera, Wajir, Isiolo, Turkana, Samburu and Garissa.",
+  "author": "adanhassanyy",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^5.1.0",
+    "@vitejs/plugin-react": "^4.0.0"
+  }
+}
